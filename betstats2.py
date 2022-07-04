@@ -64,7 +64,7 @@ def liga(l):
 
 
   #Dados descritivos atuais
-  tx = 0.9362
+  tx = 0.935
   mj_back = (1+(1 - prob_liga[-1])/(prob_liga[-1]*tx))
   mj_lay = (1+(1 - prob_liga[-1])*tx/(prob_liga[-1]))
   media_acerto = liga_acerto.B365H.mean()
